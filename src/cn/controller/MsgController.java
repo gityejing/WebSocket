@@ -34,6 +34,7 @@ public class MsgController {
 		u2.setName("李四");
 		users.put(u2.getId(), u2);
 	}
+	
 	// 用户登录
 	@RequestMapping(value = "login", method = RequestMethod.POST)
 	public ModelAndView doLogin(User user, HttpServletRequest request) {
